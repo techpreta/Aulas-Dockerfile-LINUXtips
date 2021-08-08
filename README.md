@@ -24,5 +24,5 @@
 
 <b>VOLUME</b> => Permite a criação de um ponto de montagem no container;
 
-<b>WORKDIR => Responsável por mudar do diretório / (raiz) para o especificado nele;
+<b>WORKDIR</b> => Responsável por mudar do diretório / (raiz) para o especificado nele;
 </html>
