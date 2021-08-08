@@ -2,26 +2,27 @@
 <html>
   <b>ADD</b> => Copia novos arquivos, diretórios, arquivos TAR ou arquivos remotos e os adicionam ao filesystem do container;
 
-CMD => Executa um comando, diferente do RUN que executa o comando no momento em que está "buildando" a imagem, o CMD executa no início da execução do container;
+<b>CMD</b> => Executa um comando, diferente do RUN que executa o comando no momento em que está "buildando" a imagem, o CMD executa no início da execução do container;
 
-LABEL => Adiciona metadados a imagem como versão, descrição e fabricante;
+<b>LABEL</b> => Adiciona metadados a imagem como versão, descrição e fabricante;
 
-COPY => Copia novos arquivos e diretórios e os adicionam ao filesystem do container;
+<b>COPY</b> => Copia novos arquivos e diretórios e os adicionam ao filesystem do container;
 
-ENTRYPOINT => Permite você configurar um container para rodar um executável, e quando esse executável for finalizado, o container também será;
+<b>ENTRYPOINT</b> => Permite você configurar um container para rodar um executável, e quando esse executável for finalizado, o container também será;
 
-ENV => Informa variáveis de ambiente ao container;
+<b>ENV</b> => Informa variáveis de ambiente ao container;
 
-EXPOSE => Informa qual porta o container estará ouvindo;
+<b>EXPOSE</b> => Informa qual porta o container estará ouvindo;
 
-FROM => Indica qual imagem será utilizada como base, ela precisa ser a primeira linha do Dockerfile;
+<b>FROM</b> => Indica qual imagem será utilizada como base, ela precisa ser a primeira linha do Dockerfile;
 
-MAINTAINER => Autor da imagem; 
+<b>MAINTAINER</b> => Autor da imagem; 
 
-RUN => Executa qualquer comando em uma nova camada no topo da imagem e "commita" as alterações. Essas alterações você poderá utilizar nas próximas instruções de seu Dockerfile;
+<b>RUN</b> => Executa qualquer comando em uma nova camada no topo da imagem e "commita" as alterações. Essas alterações você poderá utilizar nas próximas instruções de seu Dockerfile;
 
-USER => Determina qual o usuário será utilizado na imagem. Por default é o root;
+<b>USER</b> => Determina qual o usuário será utilizado na imagem. Por default é o root;
 
-VOLUME => Permite a criação de um ponto de montagem no container;
+<b>VOLUME</b> => Permite a criação de um ponto de montagem no container;
 
-WORKDIR => Responsável por mudar do diretório / (raiz) para o especificado nele;
+<b>WORKDIR => Responsável por mudar do diretório / (raiz) para o especificado nele;
+</html>
